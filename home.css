@@ -1,0 +1,292 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0 0 0 0;
+    max-width: 1440px;
+    margin: auto;
+  }
+  
+  header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    /* width: 1440px;
+      margin: auto; */
+  }
+  
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .logo {
+    display: flex;
+    flex: 2;
+  }
+  
+  .icon {
+    margin-top: 25px;
+    padding-right: 15px;
+    width: 23px;
+    height: 23px;
+  }
+  
+  .letter h1 {
+    margin-top: 12px;
+    font-family: open sans;
+    font-weight: lighter;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 0.1rem;
+  }
+  
+  .logo_letter {
+    color: white;
+  }
+  
+  .navbars {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  
+  .header_form {
+    width: 590px;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  .header_form h4 {
+    font-family: open sans;
+    font-size: 52px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin: 0px;
+  }
+  
+  .form {
+    width: 457px;
+    margin: auto;
+    margin-top: 20px;
+    /* display: flex; */
+  }
+  
+  input {
+    width: 325px;
+    height: 40px;
+    border-style: none;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #8b8b8b;
+    float: left;
+    margin: 0px;
+  }
+  
+  button {
+    width: 120px;
+    height: 42px;
+    border-style: none;
+    background-color: #fd4f32;
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin: 0px;
+  }
+  
+  /* before you leave */
+  
+  .top_destinations {
+    background-color: #eeeeee;
+  }
+  
+  .top_content {
+    padding-top: 60px;
+  }
+  
+  .top_content h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .top_content p {
+    font-family: open sans;
+    font-size: 15px;
+    color: #8b8b8b;
+    margin-top: 0px;
+  }
+  
+  .destinations {
+    margin-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .destination_card {
+    width: 240px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  
+  .destination_card h6 {
+    position: absolute;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    font-family: montserrat;
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+    padding-left: 190px;
+  }
+  
+  .destination_sub {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+  
+  .destination_sub h5 {
+    font-family: montserrat;
+    font-size: 14px;
+    color: #323232;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .destination_sub p {
+    font-family: open sans;
+    font-weight: normal;
+    font-size: 13px;
+    color: #696969;
+  }
+  
+  /* Before you leave */
+  
+  .top_content_again {
+    padding-top: 50px;
+  }
+  
+  .top_content_again h4 {
+    margin: 0px;
+    font-family: open sans;
+    font-size: 52px;
+    font-weight: lighter;
+    color: #323232;
+  }
+  
+  .documents {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  
+  .inner_documents {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .inner_documents h5 {
+    font-family: montserrat;
+    font-size: 16px;
+    color: #323232;
+    font-weight: normal;
+    margin: 0px;
+  }
+  
+  .inner_documents p {
+    font-family: open sans;
+    font-weight: normal;
+    font-size: 15px;
+    color: #696969;
+  }
+  
+  .footer_form {
+    width: 457px;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  
+  .footer_form h5 {
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    width: 320px;
+    margin: auto;
+  }
+  
+  .input {
+    background-color: #eeeeee;
+  }
+  
+  /* footer */
+  
+  .footer {
+    background-color: #eeeeee;
+  }
+  
+  nav {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #323232;
+  }
+  
+  ul {
+    margin-bottom: 0;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  li {
+    font-family: montserrat;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  
+  li :hover {
+    color: #fd4f32;
+  }
+  
+  .contact {
+    margin-right: 0;
+  }
+  
+  .foot {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .copy {
+    flex: 1;
+  }
+  
+  .copy p {
+    font-family: open sans;
+    font-size: 14px;
+    color: #8b8b8b;
+  }
+  
