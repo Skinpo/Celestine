@@ -289,4 +289,38 @@ body {
     font-size: 14px;
     color: #8b8b8b;
   }
+
+
+  /* media query */
+
+  @media screen and (max-width: 1024px) 
+  {
+    .header_form {
+      width: 550px;
+    }
+
+    .header_form h4 {
+      font-size: 48px;
+    }
+
+    .container {
+      width: 90%;
+    }
+
+    .destination_card {
+      width: 220px;
+    }
+
+    .destination_card img {
+      width: 220px;
+    }
+
+    .destination_card h6 {
+      padding-left: 170px;
+    }
+
+
+  }
+
+
   
