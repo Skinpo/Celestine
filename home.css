@@ -3,4 +3,28 @@
   background: yellow;
   margin: 0;
   padding: 0;
+  }
+
+/* body {
+  font-family: @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+} */
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+.top-menu a {
+  text-decoration: none;
+}
+
+.logo-name h1 {
+  font-family: "Open Sans", sans-serrif;
+  font-weight: 300;
 }
