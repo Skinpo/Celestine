@@ -17,7 +17,7 @@ header {
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  min-height: 700px;
   position: relative;
 }
 
@@ -27,11 +27,6 @@ header {
 }
 
 /* menu bar */
-
-.head {
-  position: relative;
-  padding-top: 20px;
-}
 
 .logo{
   display: flex;
@@ -45,6 +40,7 @@ header {
 
 .top-menu {
   display: flex;
+  padding-top: 30px;
 }
 
 .top-menu a {
@@ -53,8 +49,8 @@ header {
 
 .logo-name h1 {
   font-family: "Open Sans", sans-serrif;
-  font-weight: 300;
-  font-size: 1.8rem;
+  font-weight: 100;
+  font-size: 32px;
   color: white;
   letter-spacing: 0.1rem;
 }
@@ -75,15 +71,154 @@ header {
 
 /* form */
 
+.form {
+  padding-top: 250px;
+}
+
 .form p {
   font-family: "Open sans", serrif;
-  font-size: 50px;
-  letter-spacing: 0.15rem;
-  font-weight: 300;
+  font-size: 52px;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
   color: white;
   text-align: center;
 }
 
+form {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  height: 40px;
+  width: 325px;
+  background-color: white;
+  border: none;
+  padding-left: 10px;
+  font-family: "Open sans", serrif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8b8b8b;
+}
+
+/* form input:focus {
+  border-width: none;
+} */
+
+form button {
+  height: 40px;
+  width: 120px;
+  background-color: #fd4f32;
+  border: none;
+  font-family: "Open sans", serrif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+/* main */
+/* top content */
+
+.background {
+  background-color: #eeeeee;
+}
+
+.top-destinations {
+  padding-top: 60px;
+}
+
+.top-destinations h3 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #323232;
+}
+
+.top-destinations p {
+  font-family: "Open sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b8b;
+  padding-top: 10px;
+}
+
+.destinations {
+  margin-top: 45px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+figure {
+  background-color: white;
+  width: 240px;
+}
+
+figcaption {
+  padding: 18px;
+
+}
+
+figure p {
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 180px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+figure h3 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #323232;
+}
+
+figure h4 {
+  font-family: "Open sans", serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #696969;
+  padding-top: 10px;
+}
+
+/* lower content */
+
+.lower-background {
+  background-color: white;
+}
+
+.lower-content {
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+
+.lower-content h4 {
+  font-family: "Open sans", serif;
+  font-weight: 100;
+  font-size: 52px;
+  color: #323232;
+}
+
+.descriptions {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.description {
+  width: 280px;
+}
+
+
+/* responsiveness */
 /* ipad view */
 
 
