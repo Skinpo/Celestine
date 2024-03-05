@@ -103,8 +103,8 @@ form input {
   color: #8b8b8b;
 }
 
-form input:active {
-  border-width: none;
+form input:focus {
+  outline: none;
 }
 
 form button {
