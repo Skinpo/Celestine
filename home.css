@@ -290,10 +290,18 @@ footer {
 
 /* responsiveness */
 /* ipad view */
+@media (max-width: 976px) {
+
+}
 
 
-
-
+/* small ipad view */
+@media (max-width: 768px) {
+  
+}
 
 
 /* mobile view */
+@media (max-width: 480px) {
+  
+}
