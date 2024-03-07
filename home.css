@@ -292,16 +292,83 @@ footer {
 /* ipad view */
 @media (max-width: 976px) {
 
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  figure, figure img {
+    width: 225px;
+  }
+
+  figure p {
+    margin-left: 165px;
+  }
+
 }
 
 
 /* small ipad view */
 @media (max-width: 768px) {
   
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .form p {
+    font-size: 45px;
+  }
+
+  figure, figure img {
+    width: 320px;
+  }
+
+  figure p {
+    margin-left: 250px;
+  }
+
+  .lower-figs {
+    margin-top: 50px;
+  }
+
+  .descriptions {
+    display: block;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .footer-menu {
+    margin-top: 20px;
+  }
+
 }
 
 
 /* mobile view */
 @media (max-width: 480px) {
   
+  .form p {
+    font-size: 28px;
+  }
+
+  .upper-fig {
+    margin-top: 50px;
+  }
+
+  .destinations {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  figure, figure img {
+    width: 100%;
+  }
+
+  figure p {
+    margin-left: 20px;
+  }
+
 }
